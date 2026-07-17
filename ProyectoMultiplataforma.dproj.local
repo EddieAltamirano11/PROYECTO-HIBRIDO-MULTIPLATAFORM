@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/04/28 13:18:28.000.611,=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/07/17 11:42:28.000.815,=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/07/17 11:44:23.827,=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/07/17 11:45:23.187,C:\PROYECTO HIBRIDO MULTIPLATAFORMA\FORMULARIOS\Forma_Principal.dfm=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2026/07/17 11:45:23.187,C:\PROYECTO HIBRIDO MULTIPLATAFORMA\FORMULARIOS\Forma_Principal.pas=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/07/17 11:45:38.379,C:\PROYECTO HIBRIDO MULTIPLATAFORMA\ProyectoMultiplataforma.dproj=C:\Users\ealta\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/07/17 11:53:24.102,=C:\PROYECTO HIBRIDO MULTIPLATAFORMA\Unit2.pas</Transaction>
+    <Transaction>2026/07/17 11:54:57.721,C:\PROYECTO HIBRIDO MULTIPLATAFORMA\FORMULARIOS\Forma_LCD.pas=C:\PROYECTO HIBRIDO MULTIPLATAFORMA\Unit2.pas</Transaction>
+    <Transaction>2026/07/17 11:54:57.721,C:\PROYECTO HIBRIDO MULTIPLATAFORMA\FORMULARIOS\Forma_LCD.dfm=C:\PROYECTO HIBRIDO MULTIPLATAFORMA\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

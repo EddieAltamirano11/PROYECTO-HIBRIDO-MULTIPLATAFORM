@@ -1,0 +1,39 @@
+unit Forma_LCD;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.Imaging.jpeg,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TFormaLCD = class(TForm)
+    Panel1: TPanel;
+    Image1: TImage;
+    Image2: TImage;
+    Panel2: TPanel;
+    Button4: TButton;
+    Programa: TLabel;
+    Label2: TLabel;
+    Label1: TLabel;
+    Image3: TImage;
+    labelHoraENvio: TLabel;
+    Button1: TButton;
+    memoAsm: TMemo;
+    editPrograma: TEdit;
+    editTexto: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormaLCD: TFormaLCD;
+
+implementation
+
+{$R *.dfm}
+
+end.
