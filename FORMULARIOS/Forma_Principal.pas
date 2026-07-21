@@ -25,6 +25,9 @@ type
     procedure BitBtn5Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
     procedure BitBtn3Click(Sender: TObject);
+    procedure BitBtn4Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+    procedure BitBtn6Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -49,10 +52,28 @@ begin
   end;
 end;
 
+procedure TForm1.BitBtn2Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('"C:\PROYECTO HIBRIDO MULTIPLATAFORMA\IMAGENES\Errores Semánticos.png"'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
+end;
+
 procedure TForm1.BitBtn3Click(Sender: TObject);
 begin
   try
-    ShellExecute(FormaLCD.handle,nil,pChar('"C:\Users\ealta\OneDrive\Documentos\GitHub\beatscript2\main_gui.py"'),nil,nil,SW_SHOWNORMAL);
+    ShellExecute(FormaLCD.handle,nil,pChar('"C:\PROYECTO HIBRIDO MULTIPLATAFORMA\beatscript2\main_gui.py"'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
+end;
+
+procedure TForm1.BitBtn4Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('"C:\PROYECTO HIBRIDO MULTIPLATAFORMA\EJEMPLO C3D\tac_beatscript.txt"'),nil,nil,SW_SHOWNORMAL);
   except
     showMessage('No se ha encontrado la app')
   end;
@@ -61,6 +82,15 @@ end;
 procedure TForm1.BitBtn5Click(Sender: TObject);
 begin
   FormaLCD.show();
+end;
+
+procedure TForm1.BitBtn6Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('https://drive.google.com/drive/folders/1L0nGWUYxnbzXItu0QOSb1NHXbVuHtZTX?usp=sharing'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);

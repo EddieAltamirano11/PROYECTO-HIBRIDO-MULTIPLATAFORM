@@ -10080,6 +10080,7 @@ object Form1: TForm1
         FFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 1
+      OnClick = BitBtn2Click
     end
     object BitBtn3: TBitBtn
       Left = 680
@@ -20184,6 +20185,7 @@ object Form1: TForm1
         28FF392F28FF392F28FF392F28FF392F28FF392F28FF}
       Layout = blGlyphTop
       TabOrder = 4
+      OnClick = BitBtn6Click
     end
     object BitBtn4: TBitBtn
       Left = 352
@@ -22662,6 +22664,7 @@ object Form1: TForm1
         0000}
       Layout = blGlyphTop
       TabOrder = 5
+      OnClick = BitBtn4Click
     end
   end
   object Button4: TButton
