@@ -1,0 +1,86 @@
+unit Forma_Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.Imaging.jpeg, Vcl.StdCtrls, ShellAPI, Vcl.Buttons;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Image1: TImage;
+    Image2: TImage;
+    Button4: TButton;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    BitBtn3: TBitBtn;
+    BitBtn5: TBitBtn;
+    BitBtn6: TBitBtn;
+    BitBtn4: TBitBtn;
+    procedure Button4Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure BitBtn5Click(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn3Click(Sender: TObject);
+    procedure BitBtn4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses Forma_LCD;
+
+procedure TForm1.BitBtn1Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('C:\PROYECTO HIBRIDO MULTIPLATAFORMA\ARBOL EXPRESIÓN JAVA'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
+end;
+
+procedure TForm1.BitBtn3Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('"C:\PROYECTO HIBRIDO MULTIPLATAFORMA\beatscript2\main_gui.py"'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
+end;
+
+procedure TForm1.BitBtn4Click(Sender: TObject);
+begin
+  try
+    ShellExecute(FormaLCD.handle,nil,pChar('"C:\PROYECTO HIBRIDO MULTIPLATAFORMA\beatscript2\main_gui.py"'),nil,nil,SW_SHOWNORMAL);
+  except
+    showMessage('No se ha encontrado la app')
+  end;
+end;
+
+procedure TForm1.BitBtn5Click(Sender: TObject);
+begin
+  FormaLCD.show();
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  FormaLCD.show();
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  application.Terminate;
+end;
+
+end.
